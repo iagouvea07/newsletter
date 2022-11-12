@@ -1,0 +1,41 @@
+ul img, span, .feed-post-body-resumo{
+    display: none;
+}
+.feed{
+    background-color: aliceblue;
+    margin-top: 50px;
+}
+
+.feed a{
+    color: rgb(110, 109, 109);
+    text-decoration: none;
+    margin-top: 12px;
+    margin-bottom: 12px;
+    font-size: 1.1em;
+    display: inline-block;
+    margin-left: 60px;
+}
+
+.feed a:hover{
+    color: rgb(71, 71, 71);
+    text-decoration: underline;
+}
+
+.feed a::before{
+    content: '|';
+    color: rgb(0, 162, 255);
+}
+
+@media screen and (max-width: 1000px) {
+    .feed a{
+        font-size: 1.07em;
+        font-weight: 700;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    
+    .feed a{
+        font-size: 1.05em;
+    }
+}

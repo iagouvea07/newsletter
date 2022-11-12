@@ -1,0 +1,30 @@
+ul img, span, .feed-post-body-resumo{
+    display: none;
+}
+
+.feed{
+    background-color: aliceblue;
+    margin-top: 50px;
+}
+
+a{
+    color: rgb(110, 109, 109);
+    text-decoration: none;
+}
+
+a:hover{
+    color: rgb(71, 71, 71);
+    text-decoration: underline;
+}
+
+h3{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 1.2em;
+    margin-left: 60px;
+}
+
+h3::before{
+    content: '|';
+    color: rgb(0, 162, 255);
+}
